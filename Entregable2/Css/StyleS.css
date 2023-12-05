@@ -1,0 +1,85 @@
+*{
+    /* fomateador universal */
+    margin: 0%;
+    padding: 5px;
+}
+body{/*colocamos estilos*/
+    background-color:#e4fff9;
+    }
+
+header{
+        background-color:#00008e;
+        margin-bottom: 10px;
+    }
+
+header nav{
+        text-align: center;
+        padding:5px;
+        text-align: right;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+header nav a{
+        color: azure;
+        text-decoration: none;
+        font-size: xx-large;
+        margin: 10px;
+    }
+    h1 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    main {
+        background-color: #e4fff9;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        Flex-wrap: wrap;
+    
+    }
+    main section {
+        margin: 5px;
+    }
+
+    main section div h3 {
+        text-align: left;
+        font-size: large;
+        color: chocolate;
+    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    main section div p {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: blue;
+        text-align: center;
+        line-height: 30px;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: #335C81;
+        font-style: normal;
+        flex-wrap: wrap;
+    }
+    
+    footer .copy {
+        color: aliceblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;   
+    }
+    footer .redes{
+        display:flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 15px;
+    }
+    footer .redes a{
+        padding: 5px;
+        color: aliceblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+    }

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+/*aplicamos estilos al Header*/
+header {
+    background-color: #00008e;
+}
+
+header nav {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*aplicamos estilos al Main*/
+h1 {
+    text-align: center;
+}
+
+main {
+    background-color: #f5f5f0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    Flex-wrap: wrap;
+
+}
+
+main section {
+    margin: 5px;
+}
+
+main section div {
+    width: 16rem;
+    border: 2px solid #335C81;
+    border-radius: 5px;
+}
+
+main section div img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+main section div h3 {
+    text-align: center;
+    font-size: large;
+    color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main section div p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #335C81;
+    text-align: justify;
+    line-height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #335C81;
+    font-style: normal;
+    flex-wrap: wrap;
+}
+
+footer .copy {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;   
+}
+footer .redes{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 15px;
+}
+footer .redes a{
+    padding: 5px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
